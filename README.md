@@ -1,3 +1,6 @@
+## Project Title - Automated Abstractive Summarizer for Specific Domain
+## Project ID - SKIT/DS/2022-2026/12
+
 # Domain Abstractive Summarizer with Google Authentication
 
 An end-to-end web app for abstractive summarization with Google OAuth authentication, provider fallback (DeepSeek + Hugging Face), URL/file ingestion, preprocessing, and MongoDB caching.The exponential growth of digital text — spanning research publications, legal doc-
