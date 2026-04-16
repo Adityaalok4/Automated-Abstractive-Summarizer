@@ -1,6 +1,24 @@
 # Domain Abstractive Summarizer with Google Authentication
 
-An end-to-end web app for abstractive summarization with Google OAuth authentication, provider fallback (DeepSeek + Hugging Face), URL/file ingestion, preprocessing, and MongoDB caching.
+An end-to-end web app for abstractive summarization with Google OAuth authentication, provider fallback (DeepSeek + Hugging Face), URL/file ingestion, preprocessing, and MongoDB caching.The exponential growth of digital text — spanning research publications, legal doc-
+uments, corporate reports, and technical manuals — has created a critical need for
+intelligent systems capable of distilling lengthy content into concise, meaningful
+summaries. Traditional approaches to summarization, both manual and automated,
+fall short in high-stakes professional environments where precision, contextual fi-
+delity, and domain-specific understanding are non-negotiable. This project presents
+an Automated Abstractive Summarizer built upon advanced Natural Language Gen-
+eration (NLG) techniques. Unlike extractive methods that simply copy sentences
+from source documents, this system comprehends the source material and generates
+novel, human-like summaries that preserve the intent, terminology, and logical flow
+of the original content. The core challenge addressed is not merely shortening text,
+but intelligently reconstructing its meaning in a condensed form suitable for expert
+decision-making. The proposed system leverages transformer-based pre-trained lan-
+Department of Computer Science and Engineering(DS), SKIT, Jaipur 2
+guage models, fine-tuned on domain-specific corpora to ensure terminological accu-
+racy. Key problems encountered during design include hallucination in generated
+text, loss of critical domain vocabulary, and maintaining factual consistency — each
+addressed through targeted model selection, fine-tuning strategies, and post-process-
+ing evaluation pipelines using metrics such as ROUGE and BERTScore.
 
 ## Features
 - ✅ **Google OAuth Authentication** (Sign in, Sign up, Sign out)
